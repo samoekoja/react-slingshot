@@ -26,8 +26,7 @@ jobs:
       - image: circleci/node:13.8.0
     steps:
       - checkout
-      - run: npm audit fix --audit-level=critical --force
-    
+      - run: npm audit fix --audit-level=critical --force   
 # Invoke jobs via workflows
 workflows:
   werk-workflow:
