@@ -27,7 +27,7 @@ jobs:
     steps:
       - checkout
       - run: npm audit fix --audit-level=critical --force
-      - run: npm audit 
+    
 # Invoke jobs via workflows
 workflows:
   werk-workflow:
